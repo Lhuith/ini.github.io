@@ -1,0 +1,31 @@
+{
+  "name": "lhuith_website",
+  "version": "1.0.0",
+  "description": "eugene/lhuith portfolio/resume",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w ./src/sass -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lhuith/lhuith.github.io.git"
+  },
+  "author": "eugene martens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lhuith/lhuith.github.io/issues"
+  },
+  "homepage": "https://github.com/Lhuith/lhuith.github.io#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "dotenv": "^16.3.1",
+    "node-sass": "^9.0.0",
+    "notion-client": "^6.16.0",
+    "postprocessing": "^7.0.0-alpha-1",
+    "standard": "^17.1.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.1"
+  }
+}
